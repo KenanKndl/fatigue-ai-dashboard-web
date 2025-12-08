@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fatigue AI Dashboard
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-22b5bf?style=for-the-badge&logo=react&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Fatigue AI**, spor kulüpleri ve antrenörler için tasarlanmış, yeni nesil bir sporcu performans takip sistemidir. Modern web teknolojileri kullanılarak geliştirilen bu dashboard, sporcuların yorgunluk seviyelerini (Fatigue Index), antrenman durumlarını ve AI tabanlı önerileri şık bir arayüzde sunar.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Projenin temel amacı, karmaşık veri setlerini **Glassmorphism** ve **Minimalist** tasarım prensipleriyle birleştirerek, son kullanıcıya (antrenörlere) en net ve hızlı şekilde sunmaktır.
 
-## Learn More
+## ✨ Key Features
 
-To learn more about Next.js, take a look at the following resources:
+* **📊 Dynamic Dashboard:** Takımın genel durumunu özetleyen, anlık güncellenen KPI kartları.
+* **🎨 Modern UI/UX:** Tailwind CSS ile oluşturulmuş, "Ambient Glow" ve "Dot Matrix" efektlerine sahip, göz yormayan karanlık mod (Dark Mode) öncelikli tasarım.
+* **🔍 Instant Filtering & Search:** Sporcuları isme göre arama veya 'Critical/Optimal' durumuna göre anlık filtreleme özelliği.
+* **⚡ Server-Side Rendering (SSR):** Next.js App Router yapısı ile maksimum performans ve SEO uyumluluğu.
+* **🌓 Dark/Light Mode:** `next-themes` entegrasyonu ile sistem tercihine duyarlı tema yönetimi.
+* **🧠 AI Insights UI:** Sporcular için yapay zeka tarafından üretilen (simüle edilmiş) kişiselleştirilmiş antrenman önerileri.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Dashboard Overview | Athlete Filtering |
+|:---:|:---:|
+| ![Dashboard](/public/screenshots/dashboard-full.png) | ![Filtering](/public/screenshots/filtering.png) |
+| *Genel Bakış ve KPI Kartları* | *Filtreleme ve Arama Mekanizması* |
 
-## Deploy on Vercel
+| Critical Detail View | Optimal Detail View |
+|:---:|:---:|
+| ![Critical](/public/screenshots/detail-critical.png) | ![Optimal](/public/screenshots/detail-optimal.png) |
+| *Yüksek riskli sporcu detayı* | *Saha içi kondisyonu iyi sporcu detayı* |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Framework:** [Next.js 15 (App Router)](https://nextjs.org/)
+* **Language:** [TypeScript](https://www.typescriptlang.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Animation:** CSS Animations & Transitions
+* **Icons:** SVG / Heroicons
+* **Theming:** next-themes
+* **Font:** Funnel Display (Local Fonts)
+
+## 🏃‍♂️ Getting Started
+
+Projeyi yerel makinenizde çalıştırmak için adımları takip edin:
+
+1.  **Repoyu klonlayın:**
+    ```bash
+    git clone [https://github.com/KULLANICI_ADIN/fatigue-ai-dashboard.git](https://github.com/KULLANICI_ADIN/fatigue-ai-dashboard.git)
+    cd fatigue-ai-dashboard
+    ```
+
+2.  **Bağımlılıkları yükleyin:**
+    ```bash
+    npm install
+    # veya
+    yarn install
+    ```
+
+3.  **Geliştirme sunucusunu başlatın:**
+    ```bash
+    npm run dev
+    ```
+
+4.  Tarayıcınızda `http://localhost:3000` adresine gidin.
+
+## 🎨 Design Philosophy
+
+Bu projede **"SaaS-Vibe"** yakalanmaya çalışılmıştır.
+
+* **Background:** Kullanıcıyı içeriğe odaklayan ancak sıkıcı olmayan, aşağı doğru silikleşen (mask-image) nokta desenli (dot-matrix) arka plan.
+* **Glassmorphism:** Kartların arkasındaki renklerin hafifçe sızmasını sağlayan `backdrop-blur` efektleri.
+* **Visual Hierarchy:** Kritik (Critical) durumdaki sporcular için kırmızı, Optimal durumdakiler için yeşil renk kodlarının (Global CSS Variables) tutarlı kullanımı.
+
+## 🤝 Contributing
+
+Katkılarınızı bekliyoruz! Lütfen bir issue açın veya Pull Request gönderin.
+
+## 📄 License
+
+Bu proje [MIT](LICENSE) lisansı ile lisanslanmıştır.
+
+---
+
+<p align="center">
+  Developed with by <a href="https://github.com/kenankndl">Kenan Kandilli</a>
+</p>

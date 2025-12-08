@@ -1,26 +1,46 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* LIGHT MODE (Varsayılan) */
+    --color-background: 244 244 245;      /* Zinc-100 */
+    --color-background-light: 255 255 255; /* White */
+
+    --color-text-primary: 24 24 27;       /* Zinc-900 */
+    --color-text-secondary: 113 113 122;  /* Zinc-500 */
+    --color-text-muted: 161 161 170;      /* Zinc-400 */
+
+    --color-status-optimal: 22 163 74;    /* Green-600 */
+    --color-status-critical: 220 38 38;   /* Red-600 */
+  }
+
+  /* BURASI DEĞİŞTİ: @media yerine .dark seçicisi */
+  .dark {
+    /* DARK MODE */
+    --color-background: 9 9 11;           /* Zinc-950 */
+    --color-background-light: 24 24 27;   /* Zinc-900 (Bir tık açtık daha iyi görünsün diye) */
+
+    --color-text-primary: 244 244 245;    /* Zinc-100 */
+    --color-text-secondary: 161 161 170;  /* Zinc-400 */
+    --color-text-muted: 82 82 91;         /* Zinc-600 */
+
+    --color-status-optimal: 34 197 94;    /* Green-500 */
+    --color-status-critical: 239 68 68;   /* Red-500 */
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-background text-text-primary transition-colors duration-300;
+  /* transition ekledik ki renk değişimi yumuşak olsun */
+}
+
+/* Diğer kısımlar aynı kalabilir */
+@layer utilities {
+  .font-funnel-bold { @apply font-funnel font-bold; }
+  .font-funnel-extrabold { @apply font-funnel font-extrabold; }
+  .font-funnel-medium { @apply font-funnel font-medium; }
+  .font-funnel-semibold { @apply font-funnel font-semibold; }
+  .font-funnel-light { @apply font-funnel font-light; }
 }
