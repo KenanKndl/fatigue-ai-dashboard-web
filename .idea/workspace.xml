@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09fd5206-6933-4cc2-ac2b-67cdcde46a51" name="Changes" comment="feat: Initial project release with dashboard and athlete details">
+    <list default="true" id="09fd5206-6933-4cc2-ac2b-67cdcde46a51" name="Changes" comment="docs: add MIT LICENSE and refine README documentation">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -15,6 +16,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KenanKndl"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KenanKndl/fatigue-ai-dashboard-web.git",
+    "accountId": "f7c1e6e5-8d72-4611-a264-44ed1d396acf"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -51,6 +67,7 @@
       <recent name="C:\Users\kenan\WebstormProjects\fatigue-ai-web\public\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kenan\WebstormProjects\fatigue-ai-web" />
       <recent name="C:\Users\kenan\WebstormProjects\fatigue-ai-web\public\screenshots" />
       <recent name="C:\Users\kenan\WebstormProjects\fatigue-ai-web\src\app" />
     </key>
@@ -91,7 +108,7 @@
       <workItem from="1765217677532" duration="99000" />
       <workItem from="1765247719161" duration="325000" />
       <workItem from="1765248183966" duration="10000" />
-      <workItem from="1765300316821" duration="61000" />
+      <workItem from="1765300316821" duration="885000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Initial project release with dashboard and athlete details">
       <option name="closed" value="true" />
@@ -101,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765208907087</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Initial project release with dashboard and athlete details">
+      <option name="closed" value="true" />
+      <created>1765300418262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765300418262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Initial project release with dashboard and athlete details" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Initial project release with dashboard and athlete details" />
+    <MESSAGE value="docs: add MIT LICENSE and refine README documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: add MIT LICENSE and refine README documentation" />
   </component>
 </project>

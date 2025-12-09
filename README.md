@@ -1,6 +1,6 @@
 # Fatigue AI Dashboard
 
-<div align="center">
+<div style="text-align: center;">
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -52,8 +52,8 @@ Projeyi yerel makinenizde çalıştırmak için adımları takip edin:
 
 1.  **Repoyu klonlayın:**
     ```bash
-    git clone [https://github.com/KenanKndl/fatigue-ai-dashboard-web.git](https://github.com/KenanKndl/fatigue-ai-dashboard-web.git)
-    cd fatigue-ai-dashboard
+    git clone https://github.com/KenanKndl/fatigue-ai-dashboard-web.git
+    cd fatigue-ai-dashboard-web
     ```
 
 2.  **Bağımlılıkları yükleyin:**
@@ -88,6 +88,6 @@ Bu proje [MIT](LICENSE) lisansı ile lisanslanmıştır.
 
 ---
 
-<p align="center">
-  Developed with by <a href="https://github.com/kenankndl">Kenan Kandilli</a>
+<p style="text-align: center;">
+  Developed with ❤️ by <a href="https://github.com/kenankndl">Kenan Kandilli</a>
 </p>
