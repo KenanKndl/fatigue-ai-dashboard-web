@@ -52,7 +52,7 @@ Projeyi yerel makinenizde çalıştırmak için adımları takip edin:
 
 1.  **Repoyu klonlayın:**
     ```bash
-    git clone [https://github.com/KULLANICI_ADIN/fatigue-ai-dashboard.git](https://github.com/KULLANICI_ADIN/fatigue-ai-dashboard.git)
+    git clone [https://github.com/KenanKndl/fatigue-ai-dashboard-web.git](https://github.com/KenanKndl/fatigue-ai-dashboard-web.git)
     cd fatigue-ai-dashboard
     ```
 

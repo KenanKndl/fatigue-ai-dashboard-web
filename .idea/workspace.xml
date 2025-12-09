@@ -4,34 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09fd5206-6933-4cc2-ac2b-67cdcde46a51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/screenshots/dashboard-full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/screenshots/detail-critical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/screenshots/detail-optimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/screenshots/filtering.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/athlete/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/FunnelDisplay-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/FunnelDisplay-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/FunnelDisplay-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/FunnelDisplay-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/FunnelDisplay-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/FunnelDisplay-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AthleteCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BackgroundDecor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ThemeProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ThemeToggle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/athlete.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    <list default="true" id="09fd5206-6933-4cc2-ac2b-67cdcde46a51" name="Changes" comment="feat: Initial project release with dashboard and athlete details">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,27 +25,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kenan/WebstormProjects/fatigue-ai-web/public/fonts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\kenan\\WebstormProjects\\fatigue-ai-web\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/kenan/WebstormProjects/fatigue-ai-web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\kenan\\WebstormProjects\\fatigue-ai-web\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kenan\WebstormProjects\fatigue-ai-web\public\fonts" />
@@ -112,8 +87,21 @@
       <workItem from="1765131354562" duration="27000" />
       <workItem from="1765131384116" duration="717000" />
       <workItem from="1765158755404" duration="2405000" />
-      <workItem from="1765202529637" duration="6128000" />
+      <workItem from="1765202529637" duration="6449000" />
+      <workItem from="1765217677532" duration="99000" />
+      <workItem from="1765247719161" duration="325000" />
+      <workItem from="1765248183966" duration="10000" />
+      <workItem from="1765300316821" duration="61000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Initial project release with dashboard and athlete details">
+      <option name="closed" value="true" />
+      <created>1765208907087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765208907087</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +111,9 @@
         <option value="$PROJECT_DIR$/tailwind.config.js" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Initial project release with dashboard and athlete details" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Initial project release with dashboard and athlete details" />
   </component>
 </project>
